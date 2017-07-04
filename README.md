@@ -1,4 +1,4 @@
-# Timestamp API
+# Timestamp API https://timestamp-api-sid.glitch.me
 
 Timestamp Microservice
 
@@ -9,9 +9,9 @@ If it does, both the Unix timestamp and the natural language form of that date a
 If it does not contain a date or Unix timestamp,null is returned for those properties.
 Example usage:
 
-https://clover-propane.glitch.me/December%2015,%202015 
+https://timestamp-api-sid.glitch.me/December%2015,%202015 
 
-https://clover-propane.glitch.me/1450137600
+https://timestamp-api-sid.glitch.me/1450137600
 
 
 Example Output:
