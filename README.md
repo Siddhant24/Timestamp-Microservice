@@ -1,6 +1,6 @@
 # Timestamp API https://timestamp-api-sid.glitch.me
 
-Timestamp Microservice
+###Timestamp Microservice
 
 Pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).
 
@@ -9,11 +9,11 @@ If it does, both the Unix timestamp and the natural language form of that date a
 If it does not contain a date or Unix timestamp,null is returned for those properties.
 Example usage:
 
-https://timestamp-api-sid.glitch.me/December%2015,%202015 
+`https://timestamp-api-sid.glitch.me/December%2015,%202015`
 
-https://timestamp-api-sid.glitch.me/1450137600
+`https://timestamp-api-sid.glitch.me/1450137600`
 
 
 Example Output:
 
-{ "unix": 1450137600, "natural": "December 15, 2015" }
+```{ "unix": 1450137600, "natural": "December 15, 2015" }```
